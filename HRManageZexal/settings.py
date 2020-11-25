@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'lhythwczmq51&yp2l6c44g-ov8^*9gb=$g^sy&y&i4*vy$s2d^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','localhost','zexa-hrm.herokuapp.com']
 
 
 # Application definition
